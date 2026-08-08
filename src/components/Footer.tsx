@@ -66,8 +66,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs font-medium text-white/40 sm:flex-row">
-          <p>© 2026 GlycoSnap. Grown with care, one plate at a time.</p>
+        <div className="mt-10 flex items-center justify-center gap-3 border-t border-white/10 pt-6 text-xs font-medium text-white/40">
           <p className="flex items-center gap-2">
             <span className="animate-pulse-dot h-1.5 w-1.5 rounded-full bg-inrange" />
             Know your plate. Know your glucose.
