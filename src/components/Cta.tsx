@@ -5,7 +5,7 @@ export default function Cta() {
     <section id="cta" className="relative scroll-mt-20 overflow-hidden py-24 sm:py-32">
       <div
         aria-hidden
-        className="absolute left-1/2 top-1/2 h-[30rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-clay/[0.09] blur-3xl"
+        className="absolute left-1/2 top-1/2 h-[30rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky/[0.1] blur-3xl"
       />
       <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
         <DoubleRule />

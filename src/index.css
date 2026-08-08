@@ -5,11 +5,11 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-script: "Dancing Script", cursive;
 
-  /* Dark luxury canvas — warm, never pure black */
-  --color-base: #0a0608;
-  --color-mid: #0f0a0d;
-  --color-card: #171113;
-  --color-card-soft: #1f181b;
+  /* Deep ocean canvas — dark navy, never pure black */
+  --color-base: #071120;
+  --color-mid: #0b1a2d;
+  --color-card: #112238;
+  --color-card-soft: #182e4a;
   --color-line: rgb(255 255 255 / 0.1);
   --color-line-soft: rgb(255 255 255 / 0.06);
 
@@ -29,6 +29,12 @@
   --color-sage-deep: #c6d8bd;
   --color-sage-soft: #a9c3a0;
   --color-sage-tint: rgb(157 184 148 / 0.14);
+
+  /* Ocean blue accent — ties the page to the quote section */
+  --color-sky: #7fb0e0;
+  --color-sky-deep: #a9cdec;
+  --color-sky-soft: #6396c8;
+  --color-sky-tint: rgb(127 176 224 / 0.14);
 
   /* Honey + clinical range colors */
   --color-honey: #e6bd76;
@@ -55,14 +61,14 @@
 
   body {
     font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
-    background: #0a0a0c;
+    background: #071120;
     color: var(--color-ink);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
   }
 
   ::selection {
-    background: rgb(224 137 95 / 0.4);
+    background: rgb(127 176 224 / 0.35);
     color: #fff;
   }
 }

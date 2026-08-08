@@ -38,7 +38,7 @@ export default function Gamification() {
     <section id="play" className="relative scroll-mt-20 overflow-hidden py-20 sm:py-28">
       <div
         aria-hidden
-        className="absolute right-[-8%] top-24 h-[24rem] w-[24rem] rounded-full bg-honey/[0.07] blur-3xl"
+        className="absolute right-[-8%] top-24 h-[24rem] w-[24rem] rounded-full bg-sky/[0.07] blur-3xl"
       />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">

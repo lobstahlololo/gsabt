@@ -18,7 +18,7 @@ export default function Profiles() {
     <section className="relative overflow-hidden py-20 sm:py-28">
       <div
         aria-hidden
-        className="absolute left-[-8%] top-1/3 h-[24rem] w-[24rem] rounded-full bg-clay/[0.06] blur-3xl"
+        className="absolute left-[-8%] top-1/3 h-[24rem] w-[24rem] rounded-full bg-sky/[0.07] blur-3xl"
       />
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">

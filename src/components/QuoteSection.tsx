@@ -125,7 +125,7 @@ export default function QuoteSection() {
       {/* Fade into the dark content below */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 bottom-0 z-30 h-48 bg-gradient-to-b from-transparent to-[#0a0608]"
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-30 h-48 bg-gradient-to-b from-transparent to-[#071120]"
       />
 
       {/* Quote */}
@@ -133,9 +133,8 @@ export default function QuoteSection() {
         <blockquote className="max-w-4xl">
           <p className="font-instrument text-xl leading-[1.45] text-white sm:text-2xl md:text-4xl md:leading-[1.5] lg:text-[42px]">
             &ldquo;GlycoSnap was founded on a belief that managing diabetes should feel warm, not
-            clinical. We pursue clear numbers, considered guidance, and lasting habits. We spend time
-            learning what matters to you before recommending what serves you best — no guessing, no
-            scattered notes, just support that lets you feel in control of your numbers.&rdquo;
+            clinical — clear numbers, considered guidance, and lasting habits, built around
+            you.&rdquo;
           </p>
         </blockquote>
         <p className="mt-6 text-sm tracking-wide text-white/80 md:mt-8 md:text-base">

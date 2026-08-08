@@ -8,14 +8,14 @@ const LINKS = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10">
-      {/* Warm gradient + glow */}
+      {/* Deep-ocean gradient + glow */}
       <div
         aria-hidden
-        className="absolute inset-x-0 bottom-0 h-[22rem] bg-gradient-to-b from-transparent to-[#17090c]/80"
+        className="absolute inset-x-0 bottom-0 h-[22rem] bg-gradient-to-b from-transparent to-[#0a1f38]/80"
       />
       <div
         aria-hidden
-        className="absolute -bottom-24 left-1/2 h-80 w-[56rem] -translate-x-1/2 rounded-full bg-clay/[0.1] blur-3xl"
+        className="absolute -bottom-24 left-1/2 h-80 w-[56rem] -translate-x-1/2 rounded-full bg-sky/[0.14] blur-3xl"
       />
       {/* Giant script watermark */}
       <span

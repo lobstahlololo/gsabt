@@ -58,7 +58,7 @@ export default function Faq() {
                     <span
                       className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-sm transition-all duration-300 ${
                         isOpen
-                          ? "rotate-45 border-white bg-white text-[#0a0608]"
+                          ? "rotate-45 border-white bg-white text-[#071120]"
                           : "border-white/20 text-white/60"
                       }`}
                     >

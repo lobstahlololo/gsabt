@@ -1,8 +1,8 @@
 import { DoubleRule, Paper, Reveal, SectionLabel } from "./ui";
 
 const SWATCHES = [
-  { name: "Base", hex: "#0A0608", cls: "bg-[#0a0608] border-white/15" },
-  { name: "Glass", hex: "White · 4%", cls: "bg-white/[0.04]" },
+  { name: "Deep ocean", hex: "#071120", cls: "bg-[#071120] border-white/15" },
+  { name: "Ocean blue", hex: "#7FB0E0", cls: "bg-sky" },
   { name: "Terracotta", hex: "#E0895F", cls: "bg-clay" },
   { name: "Sage", hex: "#9DB894", cls: "bg-sage" },
   { name: "Honey", hex: "#E6BD76", cls: "bg-honey" },
@@ -14,7 +14,7 @@ export default function Brand() {
       <Paper />
       <div
         aria-hidden
-        className="absolute left-1/2 top-1/2 h-[24rem] w-[38rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/[0.04] blur-3xl"
+        className="absolute left-1/2 top-1/2 h-[24rem] w-[38rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky/[0.05] blur-3xl"
       />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
@@ -23,10 +23,10 @@ export default function Brand() {
             A quiet canvas, <em className="italic text-clay">never clinical</em>
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-            GlycoSnap&rsquo;s visual identity is dark, calm, and deliberately human — a contrast to
-            cold, sterile health apps. A near-black canvas with liquid-glass panels, soft glows, and
-            a serif typeface that reads like a well-set menu, not a monitor readout. Every tone stays
-            warm — even the dark is never pure black.
+            GlycoSnap&rsquo;s visual identity is calm and deliberately human — a contrast to cold,
+            sterile health apps. A deep-navy canvas with liquid-glass panels, soft glows, and a serif
+            typeface that reads like a well-set menu, not a monitor readout. Every tone stays warm —
+            even the dark is never pure black.
           </p>
         </Reveal>
 
@@ -42,7 +42,7 @@ export default function Brand() {
                 {SWATCHES.map((s) => (
                   <div key={s.name} className="text-center">
                     <div
-                      className={`h-16 w-full rounded-xl border ${s.cls} shadow-[0_0_20px_rgb(255_255_255_/_0.06)]`}
+                      className={`h-16 w-full rounded-xl border ${s.cls} shadow-[0_0_20px_rgb(127_176_224_/_0.12)]`}
                     />
                     <p className="mt-2 text-[11px] font-bold text-ink">{s.name}</p>
                     <p className="text-[10px] font-medium text-white/40">{s.hex}</p>
@@ -50,8 +50,9 @@ export default function Brand() {
                 ))}
               </div>
               <p className="mt-5 text-sm leading-relaxed text-ink-soft">
-                Terracotta leads, sage soothes, honey celebrates. Each tone sits on a near-black
-                canvas so your numbers glow — and the whole app stays warm after dark.
+                Ocean blues set the calm, terracotta warms, sage soothes, honey celebrates. Each tone
+                sits on a deep-navy canvas so your numbers glow — and the whole app stays warm after
+                dark.
               </p>
             </div>
           </Reveal>

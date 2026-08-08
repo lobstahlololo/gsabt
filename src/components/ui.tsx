@@ -115,7 +115,7 @@ export function CtaLink({
     "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition-all duration-300";
   const styles =
     variant === "primary"
-      ? "bg-white text-[#0a0608] button-glow hover:bg-white/90"
+      ? "bg-white text-[#071120] button-glow hover:bg-white/90"
       : "border border-white/15 text-white/80 hover:border-white/40 hover:text-white";
   return (
     <a href={href} className={`${base} ${styles} ${className}`}>

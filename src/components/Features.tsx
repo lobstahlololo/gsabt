@@ -38,7 +38,7 @@ export default function Features() {
     <section id="features" className="relative scroll-mt-20 py-20 sm:py-28">
       <div
         aria-hidden
-        className="absolute right-[-10%] top-32 h-[26rem] w-[26rem] rounded-full bg-sage/[0.06] blur-3xl"
+        className="absolute right-[-10%] top-32 h-[26rem] w-[26rem] rounded-full bg-sky/[0.06] blur-3xl"
       />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
@@ -56,8 +56,8 @@ export default function Features() {
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 90}>
-              <article className="liquid-glass group h-full rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_44px_rgb(255_255_255_/_0.06)]">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-clay/25 bg-clay/[0.12] text-2xl transition-transform duration-300 group-hover:scale-110">
+              <article className="liquid-glass group h-full rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_44px_rgb(127_176_224_/_0.08)]">
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-sky/30 bg-sky/[0.14] text-2xl transition-transform duration-300 group-hover:scale-110">
                   {f.emoji}
                 </span>
                 <h3 className="mt-5 font-display text-xl tracking-tight text-ink">{f.title}</h3>

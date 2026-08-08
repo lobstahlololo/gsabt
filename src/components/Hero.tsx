@@ -31,7 +31,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="top" className="relative h-screen min-h-[600px] overflow-hidden bg-[#0a0608]">
+    <section id="top" className="relative h-screen min-h-[600px] overflow-hidden bg-[#071120]">
       {/* Background video */}
       <video
         className="absolute inset-0 h-full w-full object-cover"
@@ -43,7 +43,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/20" />
       {/* blend into the next section */}
-      <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-b from-transparent to-[#0a0608]" />
+      <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-b from-transparent to-[#071120]" />
 
       {/* Fixed navbar */}
       <header className="fixed left-0 right-0 top-0 z-50">
@@ -100,7 +100,7 @@ export default function Hero() {
           <br />
           <em className="italic">Know your glucose.</em>
         </h1>
-        <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/70 md:mt-7 md:text-base">
+        <p className="mt-5 max-w-xl text-sm leading-relaxed text-white md:mt-7 md:text-base">
           Snap a photo of your plate — or type what you ate — and GlycoSnap instantly turns your
           meals and glucose readings into clear, actionable insight. Expert nutrition and glucose
           tracking, delivered with warmth and intention.
@@ -139,7 +139,7 @@ export default function Hero() {
           }`}
         />
         <aside
-          className={`absolute right-0 top-0 flex h-full w-[85%] max-w-[340px] flex-col justify-between border-l border-white/10 bg-[#0a0608]/95 p-10 backdrop-blur-xl transition-transform duration-500 ${EASE} ${
+          className={`absolute right-0 top-0 flex h-full w-[85%] max-w-[340px] flex-col justify-between border-l border-white/10 bg-[#071120]/95 p-10 backdrop-blur-xl transition-transform duration-500 ${EASE} ${
             open ? "translate-x-0" : "translate-x-full"
           }`}
         >

@@ -41,10 +41,10 @@ export default function Problem() {
     <section className="relative overflow-hidden py-20 sm:py-28">
       <div
         aria-hidden
-        className="absolute left-1/2 top-1/2 h-[28rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-clay/[0.07] blur-3xl"
+        className="absolute left-1/2 top-1/2 h-[28rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky/[0.07] blur-3xl"
       />
       {/* Bridge from the ocean-blue quote section */}
-      <div aria-hidden className="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-[#0a1b2e]/60 to-transparent" />
+      <div aria-hidden className="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-[#0a1b2e]/80 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
           <SectionLabel>Why GlycoSnap</SectionLabel>
@@ -79,13 +79,13 @@ export default function Problem() {
           </Reveal>
 
           <Reveal delay={180}>
-            <div className="relative h-full overflow-hidden rounded-3xl border border-clay/25 bg-clay/[0.08] p-7">
+            <div className="relative h-full overflow-hidden rounded-3xl border border-sky/30 bg-sky/[0.09] p-7">
               <div
                 aria-hidden
-                className="absolute -top-20 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-clay/20 blur-3xl"
+                className="absolute -top-20 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-sky/25 blur-3xl"
               />
               <div className="relative">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-clay-deep">
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-sky-deep">
                   The solution
                 </p>
                 <ul className="mt-6 space-y-6">
