@@ -56,7 +56,7 @@ export default function Features() {
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 90}>
-              <article className="liquid-glass group h-full rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1">
+              <article className="liquid-glass group h-full rounded-3xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_44px_rgb(255_255_255_/_0.06)]">
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-clay/25 bg-clay/[0.12] text-2xl transition-transform duration-300 group-hover:scale-110">
                   {f.emoji}
                 </span>

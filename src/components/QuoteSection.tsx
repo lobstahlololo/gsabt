@@ -122,6 +122,12 @@ export default function QuoteSection() {
         style={{ marginRight: "-75%", transform: "translate3d(200px, 0, 0) scaleX(-1)", opacity: 0 }}
       />
 
+      {/* Fade into the dark content below */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-30 h-48 bg-gradient-to-b from-transparent to-[#0a0608]"
+      />
+
       {/* Quote */}
       <div className="relative z-20 flex h-full flex-col items-center justify-center px-6 text-center">
         <blockquote className="max-w-4xl">

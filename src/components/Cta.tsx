@@ -5,11 +5,11 @@ export default function Cta() {
     <section id="cta" className="relative scroll-mt-20 overflow-hidden py-24 sm:py-32">
       <div
         aria-hidden
-        className="absolute left-1/2 top-1/2 h-[30rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/[0.07] blur-3xl"
+        className="absolute left-1/2 top-1/2 h-[30rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-clay/[0.09] blur-3xl"
       />
       <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
         <DoubleRule />
-        <h2 className="mt-8 font-display text-4xl tracking-tight text-ink sm:text-5xl lg:text-[3.4rem] lg:leading-[1.06]">
+        <h2 className="text-glow mt-8 font-display text-4xl tracking-tight text-ink sm:text-5xl lg:text-[3.4rem] lg:leading-[1.06]">
           Start seeing the pattern in your <em className="italic text-clay">plate</em>
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-ink-soft">

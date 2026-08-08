@@ -43,6 +43,8 @@ export default function Problem() {
         aria-hidden
         className="absolute left-1/2 top-1/2 h-[28rem] w-[44rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-clay/[0.07] blur-3xl"
       />
+      {/* Bridge from the ocean-blue quote section */}
+      <div aria-hidden className="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-[#0a1b2e]/60 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-2xl text-center">
           <SectionLabel>Why GlycoSnap</SectionLabel>
